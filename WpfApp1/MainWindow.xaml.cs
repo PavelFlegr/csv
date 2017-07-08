@@ -118,7 +118,7 @@ namespace WpfApp1
 				row.Add(key);
 				row.AddRange(row1.Where((field, index) => file1Indices.Contains(index)));
 				row.AddRange(row2.Where((field, index) => file2Indices.Contains(index)));
-				return row;
+				return row; 
 			});
 
 			var dialog = new SaveFileDialog();
